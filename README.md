@@ -1,6 +1,6 @@
-# Heurist Mesh Plugin for elizaOS
+# XaloraMesh Plugin for elizaOS
 
-This plugin integrates the Heurist Mesh Agent services into elizaOS, providing access to specialized Web3 tools and blockchain analysis capabilities.
+This plugin integrates the XaloraMesh Agent services into elizaOS, providing access to specialized Web3 tools and blockchain analysis capabilities.
 
 ## Development
 
@@ -68,7 +68,7 @@ The `agentConfig` section in `package.json` defines the parameters your plugin r
   "pluginParameters": {
     "HEURIST_API_KEY": {
       "type": "string",
-      "description": "API key for Heurist Mesh Agent service"
+      "description": "API key for XaloraMesh Agent service"
     }
   }
 }
@@ -139,7 +139,7 @@ await eliza.execute("goplusTokenSecurity", {
 
 ### Natural Language Query
 
-Query any Heurist Mesh agent with natural language:
+Query any XaloraMesh agent with natural language:
 
 ```typescript
 await eliza.execute("queryAgent", {
@@ -154,4 +154,4 @@ MIT
 
 ## Support
 
-For support, please contact the Heurist Network team or open an issue in the GitHub repository. 
+For support, please contact the XaloraNetwork team or open an issue in the GitHub repository. 
