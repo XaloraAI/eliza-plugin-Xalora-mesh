@@ -132,8 +132,8 @@ Analyze token contract security:
 
 ```typescript
 await eliza.execute("goplusTokenSecurity", {
-  contractAddress: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-  chainId: "1" // Ethereum mainnet
+  contractAddress: "5voS9evDjxF589WuEub5i4ti7FWQmZCsAsyD5ucbuRqM",
+     chainId: "1" // Solana Network
 });
 ```
 
